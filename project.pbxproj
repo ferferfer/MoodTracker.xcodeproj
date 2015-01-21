@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1663921A6FD00A0019590A /* HelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1663911A6FD00A0019590A /* HelpController.swift */; };
+		3F3252AA1A6FC75E00E9C699 /* MoodDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3252A91A6FC75E00E9C699 /* MoodDetailsController.swift */; };
 		78E6507A1A1E8F45006D2242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E650791A1E8F45006D2242 /* AppDelegate.swift */; };
 		78E6507C1A1E8F45006D2242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E6507B1A1E8F45006D2242 /* ViewController.swift */; };
 		78E6507F1A1E8F45006D2242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E6507D1A1E8F45006D2242 /* Main.storyboard */; };
@@ -61,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F1663911A6FD00A0019590A /* HelpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpController.swift; sourceTree = "<group>"; };
+		3F3252A91A6FC75E00E9C699 /* MoodDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodDetailsController.swift; sourceTree = "<group>"; };
 		78E650741A1E8F45006D2242 /* MoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E650781A1E8F45006D2242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78E650791A1E8F45006D2242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -180,9 +184,11 @@
 		78E650A11A1E920E006D2242 /* MoodTracker WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3F3252A91A6FC75E00E9C699 /* MoodDetailsController.swift */,
 				78E650A41A1E920E006D2242 /* InterfaceController.swift */,
 				78E650A61A1E920E006D2242 /* Images.xcassets */,
 				78E650A21A1E920E006D2242 /* Supporting Files */,
+				3F1663911A6FD00A0019590A /* HelpController.swift */,
 			);
 			path = "MoodTracker WatchKit Extension";
 			sourceTree = "<group>";
@@ -392,6 +398,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78E650A51A1E920E006D2242 /* InterfaceController.swift in Sources */,
+				3F1663921A6FD00A0019590A /* HelpController.swift in Sources */,
+				3F3252AA1A6FC75E00E9C699 /* MoodDetailsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +651,7 @@
 				78E650951A1E8F45006D2242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78E650961A1E8F45006D2242 /* Build configuration list for PBXNativeTarget "MoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +660,7 @@
 				78E650981A1E8F45006D2242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78E650B81A1E920E006D2242 /* Build configuration list for PBXNativeTarget "MoodTracker Watch App" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +669,7 @@
 				78E650BA1A1E920E006D2242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78E650BB1A1E920E006D2242 /* Build configuration list for PBXNativeTarget "MoodTracker WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +678,7 @@
 				78E650BD1A1E920E006D2242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
